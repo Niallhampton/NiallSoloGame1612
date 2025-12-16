@@ -19,11 +19,9 @@ public class SpikeSpawner : MonoBehaviour
 
     void Update()
     {
-        Debug.Log($"PlayerX: {player.position.x}, NextSpawnX: {nextSpawnX}");
 
         if (player.position.x + spawnDistance >= nextSpawnX)
         {
-            Debug.Log("Spawning spike at: " + nextSpawnX);
             SpawnSpike();
         }
     }
@@ -33,7 +31,6 @@ public class SpikeSpawner : MonoBehaviour
         float randomY = Random.Range(minY, maxY);
         Vector3 spawnPos = new Vector3(nextSpawnX, randomY, 0f);
         Instantiate(spikePrefab, spawnPos, Quaternion.identity);
-        Debug.Log($"Spike spawned at {spawnPos}");
         nextSpawnX += spawnInterval;
     }
 }
