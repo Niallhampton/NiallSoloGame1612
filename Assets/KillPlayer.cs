@@ -7,9 +7,16 @@ public class KillPlayer : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(
-                SceneManager.GetActiveScene().buildIndex
-            );
+            //get death sound
+            soundDeath deathSound = other.GetComponent<soundDeath>();
+
+            if (deathSound != null)
+            {
+                deathSound.PlaySound();
+            }
+
+            // Reload the scene
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
