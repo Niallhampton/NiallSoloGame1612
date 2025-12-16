@@ -7,6 +7,8 @@ public class AutoRunner : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    public bool isDead = false;
+
 
     void Start()
     {
@@ -15,6 +17,7 @@ public class AutoRunner : MonoBehaviour
 
     void Update()
     {
+        if (isDead) return;
         // Always move right
         rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
 
