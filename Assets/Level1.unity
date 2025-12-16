@@ -605,7 +605,7 @@ MonoBehaviour:
   player: {fileID: 123326791}
   spawnDistance: 7
   minY: -4.7
-  maxY: -4.4
+  maxY: -4
   spawnInterval: 6
 --- !u!4 &1593675378
 Transform:
