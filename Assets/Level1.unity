@@ -294,10 +294,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 123326787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f5dabaf9b26a074eb5388fa4e3b9efa, type: 3}
+  m_Script: {fileID: 11500000, guid: a8df9764b275aaa4693e78b2c4c89528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 5
+  speed: 6
   jumpForce: 10
 --- !u!1 &147851896
 GameObject:
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 147851896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501f0d6d50fbb724da20aa15a5341da6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a5a2c817ae5d7b44b8927847393dbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillPlayer
 --- !u!1 &339844015
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 339844015}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501f0d6d50fbb724da20aa15a5341da6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a5a2c817ae5d7b44b8927847393dbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillPlayer
 --- !u!61 &339844017
@@ -1041,8 +1041,8 @@ Transform:
   m_GameObject: {fileID: 681907593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.06, y: -0.12, z: 10}
-  m_LocalScale: {x: 35, y: 10, z: 1}
+  m_LocalPosition: {x: 0.3759, y: -0.1056, z: 10}
+  m_LocalScale: {x: 34.64326, y: 10.02925, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1075,7 +1075,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 914954161}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501f0d6d50fbb724da20aa15a5341da6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a5a2c817ae5d7b44b8927847393dbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillPlayer
 --- !u!61 &914954163
@@ -1225,7 +1225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 965380549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501f0d6d50fbb724da20aa15a5341da6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a5a2c817ae5d7b44b8927847393dbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillPlayer
 --- !u!61 &965380551
@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1203776019}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501f0d6d50fbb724da20aa15a5341da6, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillPlayer
 --- !u!61 &1203776021
@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1887155112}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501f0d6d50fbb724da20aa15a5341da6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a5a2c817ae5d7b44b8927847393dbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillPlayer
 --- !u!61 &1887155114
@@ -1647,6 +1647,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1917792498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1917792500}
+  - component: {fileID: 1917792499}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1917792499
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917792498}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: aa243efdd31da784192fac9ce1e37fb1, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1917792500
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917792498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.03878, y: -0.08621, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040188089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,7 +1804,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2040188089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 501f0d6d50fbb724da20aa15a5341da6, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a5a2c817ae5d7b44b8927847393dbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillPlayer
 --- !u!61 &2040188091
@@ -1813,3 +1942,4 @@ SceneRoots:
   - {fileID: 2040188093}
   - {fileID: 1887155116}
   - {fileID: 914954165}
+  - {fileID: 1917792500}
