@@ -604,8 +604,8 @@ MonoBehaviour:
   spikePrefab: {fileID: 4771732683506434619, guid: 9476cabb83f06f74ca28133619c6ccbe, type: 3}
   player: {fileID: 123326791}
   spawnDistance: 7
-  minY: -4.7
-  maxY: -4
+  minY: -5
+  maxY: -4.6
   spawnInterval: 6
 --- !u!4 &1593675378
 Transform:
@@ -764,12 +764,20 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8184551343992773237, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7857391
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184551343992773237, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.61243725
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184551343992773237, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.36
+      value: -16.2512
       objectReference: {fileID: 0}
     - target: {fileID: 8184551343992773237, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.85
+      value: -4.1838
       objectReference: {fileID: 0}
     - target: {fileID: 8184551343992773237, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
       propertyPath: m_LocalPosition.z
@@ -802,6 +810,14 @@ PrefabInstance:
     - target: {fileID: 8184551343992773237, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467122324463037839, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467122324463037839, guid: 063d18fc43b97d440bad271aa718f362, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
