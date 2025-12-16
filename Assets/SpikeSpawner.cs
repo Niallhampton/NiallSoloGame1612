@@ -36,4 +36,5 @@ public class SpikeSpawner : MonoBehaviour
         Debug.Log($"Spike spawned at {spawnPos}");
         nextSpawnX += spawnInterval;
     }
+}
 
