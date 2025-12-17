@@ -47,4 +47,5 @@ public class SpikeSpawner : MonoBehaviour
         //move the next spike position forward by the interval value
         nextSpawnX += spawnInterval;
     }
+}
 

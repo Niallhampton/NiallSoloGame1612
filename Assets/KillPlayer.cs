@@ -27,7 +27,9 @@ public class KillPlayer : MonoBehaviour
         //create audio source
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.clip = soundClip1;
+        audioSource.volume = 0.1f;
         audioSource.Play();
+     
 
 
         //wait for sound to finish
