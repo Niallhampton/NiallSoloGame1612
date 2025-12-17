@@ -4,16 +4,16 @@ using System.Collections;
 
 public class KillPlayer : MonoBehaviour
 {
-    public AudioClip soundClip1;
+    public AudioClip soundClip1; //death sound
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other) //called when object enters collider
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) //checks object is player
         {
             //stopp movement
             AutoRunner runner = other.GetComponent<AutoRunner>();
             if (runner != null)
-            {
+            {                                   //stops movement by setting the player to dead
                 runner.isDead = true;
             }
 
